@@ -20,11 +20,11 @@ namespace Umg.Datos
         public DbSet<Email> Emails { get; set; }
         public DbSet<Municipio> Municipios { get; set; }
         public DbSet<Telefono> Telefonos { get; set; }
-        public DbSet<persona> Personas { get; set; }
+        public DbSet<persona> Persona { get; set; }
         public DbSet<Rol> Rols { get; set; }
         public DbSet<usuario> Usuarios { get; set; }
         public DbSet<detalle_ingreso> Detalle_Ingresos { get; set; }
-        public DbSet<detalle_venta> Detalle_Ventas { get; set; }
+        public DbSet<detalle_venta> DetalleVentas { get; set; }
         public DbSet<ingreso> Ingresos { get; set; }
         public DbSet<venta> Ventas { get; set; }
 
